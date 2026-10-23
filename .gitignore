@@ -1,0 +1,26 @@
+# --- data (never upload ADNI-derived or mock data) ---
+data/
+*.npy
+
+# --- experiment outputs ---
+outputs/
+
+# --- manuscript files (submission confidentiality) ---
+*.docx
+*.doc
+*.pdf
+
+# --- python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# --- IDE / OS ---
+.vscode/*
+!.vscode/launch.json
+.idea/
+.DS_Store
+Thumbs.db

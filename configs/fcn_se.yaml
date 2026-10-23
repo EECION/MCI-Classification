@@ -1,0 +1,7 @@
+inherits: default.yaml
+
+experiment:
+  name: fcn_se
+
+model:
+  variant: fcn_se

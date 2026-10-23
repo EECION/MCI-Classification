@@ -1,0 +1,7 @@
+inherits: default.yaml
+
+experiment:
+  name: transformer_cbam
+
+model:
+  variant: transformer_cbam

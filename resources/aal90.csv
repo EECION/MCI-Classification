@@ -1,0 +1,91 @@
+index,abbr,full_name
+1,PreCG.L,Precentral gyrus left
+2,PreCG.R,Precentral gyrus right
+3,SFGdor.L,Superior frontal gyrus dorsolateral left
+4,SFGdor.R,Superior frontal gyrus dorsolateral right
+5,ORBsup.L,Superior frontal gyrus orbital left
+6,ORBsup.R,Superior frontal gyrus orbital right
+7,MFG.L,Middle frontal gyrus left
+8,MFG.R,Middle frontal gyrus right
+9,ORBmid.L,Middle frontal gyrus orbital left
+10,ORBmid.R,Middle frontal gyrus orbital right
+11,IFGoperc.L,Inferior frontal gyrus opercular left
+12,IFGoperc.R,Inferior frontal gyrus opercular right
+13,IFGtriang.L,Inferior frontal gyrus triangular left
+14,IFGtriang.R,Inferior frontal gyrus triangular right
+15,ORBinf.L,Inferior frontal gyrus orbital left
+16,ORBinf.R,Inferior frontal gyrus orbital right
+17,ROL.L,Rolandic operculum left
+18,ROL.R,Rolandic operculum right
+19,SMA.L,Supplementary motor area left
+20,SMA.R,Supplementary motor area right
+21,OLF.L,Olfactory cortex left
+22,OLF.R,Olfactory cortex right
+23,SFGmed.L,Medial superior frontal gyrus left
+24,SFGmed.R,Medial superior frontal gyrus right
+25,ORBmed.L,Medial superior frontal gyrus orbital left
+26,ORBmed.R,Medial superior frontal gyrus orbital right
+27,REC.L,Gyrus rectus left
+28,REC.R,Gyrus rectus right
+29,INS.L,Insula left
+30,INS.R,Insula right
+31,ACG.L,Anterior cingulate gyrus left
+32,ACG.R,Anterior cingulate gyrus right
+33,DCG.L,Middle cingulate gyrus left
+34,DCG.R,Middle cingulate gyrus right
+35,PCG.L,Posterior cingulate gyrus left
+36,PCG.R,Posterior cingulate gyrus right
+37,HIP.L,Hippocampus left
+38,HIP.R,Hippocampus right
+39,PHG.L,Parahippocampal gyrus left
+40,PHG.R,Parahippocampal gyrus right
+41,AMYG.L,Amygdala left
+42,AMYG.R,Amygdala right
+43,CAL.L,Calcarine fissure left
+44,CAL.R,Calcarine fissure right
+45,CUN.L,Cuneus left
+46,CUN.R,Cuneus right
+47,LING.L,Lingual gyrus left
+48,LING.R,Lingual gyrus right
+49,SOG.L,Superior occipital gyrus left
+50,SOG.R,Superior occipital gyrus right
+51,MOG.L,Middle occipital gyrus left
+52,MOG.R,Middle occipital gyrus right
+53,IOG.L,Inferior occipital gyrus left
+54,IOG.R,Inferior occipital gyrus right
+55,FFG.L,Fusiform gyrus left
+56,FFG.R,Fusiform gyrus right
+57,PoCG.L,Postcentral gyrus left
+58,PoCG.R,Postcentral gyrus right
+59,SPG.L,Superior parietal gyrus left
+60,SPG.R,Superior parietal gyrus right
+61,IPG.L,Inferior parietal gyrus left
+62,IPG.R,Inferior parietal gyrus right
+63,SMG.L,Supramarginal gyrus left
+64,SMG.R,Supramarginal gyrus right
+65,ANG.L,Angular gyrus left
+66,ANG.R,Angular gyrus right
+67,PCUN.L,Precuneus left
+68,PCUN.R,Precuneus right
+69,PCL.L,Paracentral lobule left
+70,PCL.R,Paracentral lobule right
+71,CAU.L,Caudate nucleus left
+72,CAU.R,Caudate nucleus right
+73,PUT.L,Putamen left
+74,PUT.R,Putamen right
+75,PAL.L,Pallidum left
+76,PAL.R,Pallidum right
+77,THA.L,Thalamus left
+78,THA.R,Thalamus right
+79,HES.L,Heschl gyrus left
+80,HES.R,Heschl gyrus right
+81,STG.L,Superior temporal gyrus left
+82,STG.R,Superior temporal gyrus right
+83,TPOsup.L,Temporal pole superior temporal gyrus left
+84,TPOsup.R,Temporal pole superior temporal gyrus right
+85,MTG.L,Middle temporal gyrus left
+86,MTG.R,Middle temporal gyrus right
+87,TPOmid.L,Temporal pole middle temporal gyrus left
+88,TPOmid.R,Temporal pole middle temporal gyrus right
+89,ITG.L,Inferior temporal gyrus left
+90,ITG.R,Inferior temporal gyrus right

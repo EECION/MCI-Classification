@@ -1,0 +1,16 @@
+# Pinned to the paper environment (Section 2.6):
+# Ubuntu 22.04 LTS, CUDA 12.1, Python 3.10.12, 2 x RTX 4090
+# Install:  pip install -r requirements.txt
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.3.1+cu121
+torchvision==0.18.1+cu121
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.1
+optuna==3.6.1
+shap==0.46.0
+matplotlib==3.9.1
+PyYAML==6.0.1
+tqdm==4.66.4
+tabulate==0.9.0

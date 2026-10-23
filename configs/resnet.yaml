@@ -1,0 +1,7 @@
+inherits: default.yaml
+
+experiment:
+  name: resnet
+
+model:
+  variant: resnet

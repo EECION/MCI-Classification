@@ -1,0 +1,7 @@
+inherits: default.yaml
+
+experiment:
+  name: resnet_aspp
+
+model:
+  variant: resnet_aspp

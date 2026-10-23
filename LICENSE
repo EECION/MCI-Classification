@@ -1,0 +1,54 @@
+REVIEW AND ACADEMIC NON-COMMERCIAL USE LICENSE
+
+Copyright (c) 2026 Yu Zhou, Kang Hai, Yan Dong, Jun Wang, Hui Wang, Shanshan Yin.
+All rights reserved.
+
+1. Grant of Permission. Permission is granted to any person who obtains a copy
+of this software and associated documentation files (the "Software") to
+download, inspect, compile, execute, and modify the Software solely for the
+following purposes:
+
+   (a) peer review of the manuscript entitled "An Integrated Learning Framework
+       for White Matter Connectivity-Based Cognitive Impairment Staging:
+       Backbone-Specific Enhancement and Clinical Phenotype Interpretation"
+       (the "Manuscript"); and
+
+   (b) non-commercial academic research whose sole purpose is to verify or
+       reproduce the results reported in the Manuscript.
+
+2. Prohibited Uses. Any use of the Software not falling within Section 1 --
+including, without limitation, any commercial use, product development,
+provision of paid or unpaid services, clinical or diagnostic use, application
+to other datasets or populations, training or development of other models,
+creation of derivative works for purposes unrelated to the Manuscript, or any
+private purpose unrelated to the Manuscript -- is expressly prohibited without
+the prior written permission of the copyright holders.
+
+3. Redistribution. Redistribution of the Software, with or without
+modification, is permitted only under the terms of this License and only for
+the purposes stated in Section 1, and must retain this License, the above
+copyright notice, and this permission notice.
+
+4. Citation. Any academic use permitted under Section 1 shall cite the
+Manuscript.
+
+5. No Clinical Use. The Software is provided for research purposes only. It is
+not a medical device and has no regulatory approval. It must not be used for
+diagnosis, treatment, or any clinical decision-making.
+
+6. Data Notice. This repository does not contain ADNI data or any third-party
+data. The Alzheimer's Disease Neuroimaging Initiative (ADNI) data used in the
+Manuscript were obtained under a separate data use agreement. Users who wish to
+obtain the data must apply through the official ADNI portal
+(http://adni.loni.usc.edu).
+
+7. No Warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+8. Contact. Requests for permissions beyond the scope of this License should be
+directed to the corresponding author: Jun Wang <wangjun_haust@163.com>.

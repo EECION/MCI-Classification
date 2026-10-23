@@ -1,0 +1,89 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "data: 生成模拟数据",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/make_mock_data.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "data: 校验数据",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/validate_data.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "smoke: 冒烟(单次快速训练)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/run_training.py",
+            "args": ["--config", "configs/transformer_cbam.yaml", "--fast"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": { "CUDA_VISIBLE_DEVICES": "0" },
+            "justMyCode": false
+        },
+        {
+            "name": "train: 单次完整训练(Transformer+CBAM)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/run_training.py",
+            "args": ["--config", "configs/transformer_cbam.yaml", "--seed", "0"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": { "CUDA_VISIBLE_DEVICES": "0" },
+            "justMyCode": false
+        },
+        {
+            "name": "tune: Optuna 调参(快速)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/run_tuning.py",
+            "args": ["--config", "configs/transformer_cbam.yaml", "--fast"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": { "CUDA_VISIBLE_DEVICES": "0" },
+            "justMyCode": false
+        },
+        {
+            "name": "holdout: 100次留出(Transformer配对)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/run_holdout.py",
+            "args": [
+                "--configs",
+                "configs/transformer.yaml",
+                "configs/transformer_cbam.yaml"
+            ],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": { "CUDA_VISIBLE_DEVICES": "0" },
+            "justMyCode": false
+        },
+        {
+            "name": "summarize: 汇总出表(Table2/top20)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/summarize.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "analysis: Mantel+Lasso+SHAP",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/scripts/run_analysis.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}

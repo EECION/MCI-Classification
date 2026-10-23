@@ -1,0 +1,7 @@
+inherits: default.yaml
+
+experiment:
+  name: lstm_sge
+
+model:
+  variant: lstm_sge

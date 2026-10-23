@@ -1,0 +1,7 @@
+inherits: default.yaml
+
+experiment:
+  name: transformer
+
+model:
+  variant: transformer
