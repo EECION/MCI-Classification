@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "data: 生成模拟数据",
+            "name": "data: generate mock cohort",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/scripts/make_mock_data.py",
@@ -11,7 +11,7 @@
             "justMyCode": false
         },
         {
-            "name": "data: 校验数据",
+            "name": "data: validate data",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/scripts/validate_data.py",
@@ -20,7 +20,7 @@
             "justMyCode": false
         },
         {
-            "name": "smoke: 冒烟(单次快速训练)",
+            "name": "smoke: single fast training",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/scripts/run_training.py",
@@ -31,7 +31,7 @@
             "justMyCode": false
         },
         {
-            "name": "train: 单次完整训练(Transformer+CBAM)",
+            "name": "train: full single run (Transformer+CBAM)",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/scripts/run_training.py",
@@ -42,7 +42,7 @@
             "justMyCode": false
         },
         {
-            "name": "tune: Optuna 调参(快速)",
+            "name": "tune: Optuna tuning (fast)",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/scripts/run_tuning.py",
@@ -53,7 +53,7 @@
             "justMyCode": false
         },
         {
-            "name": "holdout: 100次留出(Transformer配对)",
+            "name": "holdout: 100 runs (Transformer pair)",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/scripts/run_holdout.py",
@@ -68,7 +68,7 @@
             "justMyCode": false
         },
         {
-            "name": "summarize: 汇总出表(Table2/top20)",
+            "name": "summarize: tables (Table2/top20)",
             "type": "debugpy",
             "request": "launch",
             "program": "${workspaceFolder}/scripts/summarize.py",

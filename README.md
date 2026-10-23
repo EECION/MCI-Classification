@@ -106,7 +106,6 @@ src/training/   Trainer (AdamW, warm-up+cosine, early stopping, AMP), Optuna tun
 src/evaluation/ one-vs-rest metrics, permutation / gradient edge importance
 src/analysis/   Mantel tests, Pearson correlation, Lasso + SHAP, result tables
 scripts/        entry points (training, tuning, hold-out, scheduling, summary, analysis)
-docs/           design document (Chinese)
 ```
 
 ## Citation
